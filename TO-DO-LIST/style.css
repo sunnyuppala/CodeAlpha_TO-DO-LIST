@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url(./jon-tyson-GpiqJ8Po2g0-unsplash.jpg);
+    
+}
+
+.container {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #F3E8D5;
+    border: 1px solid #F3E8D5;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#task-form {
+    margin-bottom: 20px;
+}
+
+#task-input {
+    width: 100%;
+    height: 30px;
+    padding: 10px;
+    
+    font-size: 16px;
+    border: 1px solid #ccc;
+}
+
+#add-task-btn {
+    width: 100%;
+    height: 30px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #3f3f3f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#add-task-btn:hover {
+    background-color: #3f3f3f;
+}
+
+#task-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#task-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+#task-list li:last-child {
+    border-bottom: none;
+}
+
+#save-btn {
+    width: 100%;
+    height: 30px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #3f3f3f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#save-btn:hover {
+    background-color: #3f3f3f;
+}
